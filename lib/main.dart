@@ -61,8 +61,14 @@ class HomePage extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
-                    const Text('PIG WEIGHT'),
-                    const Text('CALCULATOR'),
+                     Text('PIG WEIGHT',
+                    style: TextStyle(
+                        fontSize: 36.0,
+                        color: Colors.pinkAccent.shade200)),
+                    Text('CALCULATOR',
+                        style: TextStyle(
+                            fontSize: 36.0,
+                            color: Colors.pinkAccent.shade200)),
                   ],
                 ),
               ),
